@@ -72,6 +72,7 @@ section {
 
 /* Hero Style Start */
 .hero {
+  background-image: url('file:///Users/user/Desktop/boot_camp_cert/projects/run-buddy/assets/images/hero-bg.jpeg');
   height: 600px;
   background-size: cover;
   background-position: center;
