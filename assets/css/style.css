@@ -162,34 +162,69 @@ section {
   text-align: center;
 }
 
+/* created the below style */
+.step {
+  margin: 50px auto;
+  padding-bottom: 50px;
+  width: 80%;
+  border-bottom: 1px solid #39a6b2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
 /* removed the text-align element */
 .steps {
   background: #fce138;
 }
 
-.steps div {
-  margin-bottom: 80px;
-}
+/* removed steps div, steps img, and steps span sections */
 
-.steps img {
-  width: 15%;
-  margin: 10px 0;
-}
-
-.steps h3 {
+/* removed margin top and renamed from steps h3 to step h3, added flex 30% */
+.step h3 {
   color: #024e76;
   font-size: 46px;
-  margin-top: 10px;
+  flex: 1 30%;
 }
 
-.steps p {
+/* created the below */
+.step-info {
+  flex: 2 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* changed from .steps p to .step-text p and font size from 23 px */
+.step-text p {
   color: #39a6b2;
-  font-size: 23px;
+  font-size: 18px;
 }
 
-.steps span {
-  font-size: 38px;
+/* added the below style rule */
+.step-text h4 {
+  font-size: 26px;
+  line-height: 1.5;
+  color: #024e76
 }
+
+/* added the below */
+.step-img {
+  flex: 1 12%
+  margin-right: 20px;
+}
+
+/* added the below */
+.step-img img {
+  max-width: 100%;
+}
+
+/* added the below */
+.step-text {
+  flex: 12;
+}
+
 
 /* removed display, padding, and margin bottom and added padding nottom, text alogn, margin and width */
 
