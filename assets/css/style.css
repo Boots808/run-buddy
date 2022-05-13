@@ -35,14 +35,21 @@ header nav {
   margin: 7px 0;
 }
 
-header nav ul li {
-  display: inline;
+/* removed the header nav ul li and replaced with the below */
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify content: space-between;
+  align-items: center;
+  list style: none;
+
 }
 
+/*updated the font size below using vw unit of measure */
 header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
-  font-size: 22px;
+  font-size: 1.55vw;
 }
 
 footer {
